@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.style.display = expanded ? "none" : "block";
   });
 });
-var typed = new Typed(".auto-type", {
+const typed = new Typed(".auto-type", {
   strings: ["Web Developer", "Coder", "Problem solver"],
   typeSpeed: 150,
   backspeed: 150,
