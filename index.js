@@ -8,3 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.style.display = expanded ? "none" : "block";
   });
 });
+const typed = new Typed(".auto-type", {
+  strings: ["Web Developer", "Coder", "Problem solver"],
+  typeSpeed: 150,
+  backspeed: 150,
+  loop: true,
+});
